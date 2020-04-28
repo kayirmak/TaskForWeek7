@@ -15,4 +15,26 @@
 // — прочитайте CSS-свойство color у второй гиперсылки в тексте
 
 
+$(document).ready(function() {
+    //zad1
+    $('strong').css('color', 'green');
 
+    //zad2
+    $('em').addClass('selected');
+
+
+    //zad3
+    $('.row mark').addClass('selected');
+
+    //zad4
+    $('a').css('text-decoration', 'none');
+
+    //zad5
+    $('strong').toggleClass('some');
+
+    //zad6
+    $('.row:eq(1)').removeClass('row');
+
+    //zad7
+    console.log($('a:eq(1)').css('color'));
+})
